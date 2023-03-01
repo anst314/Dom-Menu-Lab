@@ -102,6 +102,6 @@ const showingSubMenu = false;
 topMenuEl.addEventListener('click', function(event) { 
   event.preventDefault();
   if (event.target.tagname !== 'a') return;
-  console.log(event.target.textContext)  
+  console.log(event.target.innerHTML)  
 });
 
